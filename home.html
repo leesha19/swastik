@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="home.css">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Simulate a smartphone / tablet -->
+    <div class="mobile-container">
+
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a id="tittle" href="#">Swastik Clinic</a>
+            <div class="right">
+                <a id="search" href="#"><i class="fa fa-search"></i></a>
+                <a id="bell" href="#"><i class="fa fa-bell"></i></a>
+            </div>
+            <br>
+            <div id="myLinks">
+                <button class="active"><a href="#home">Home</a></button>
+                <button><a href="appointment.html">Appointment</a></button>
+                <hr>
+            </div>
+        </div>
+        <!--image-->
+        <div class="image">
+            <img src="images/General Physician 1.png" alt="">
+        </div>      
+        <div class="timing">
+            <img src="images/Frame 546.svg" alt="">
+        </div>
+
+        <!--cards-->
+        
+        <div class="doctor">
+            <div class="row ">
+                <div class="column">
+                    <h3>All Doctor</h3>
+                </div>
+                <div class="column view">
+                    <button>
+                        <h4>View All</h4>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="row card-row">
+                <div class="column">
+                    <div class="card" style="margin-left: 4px;">
+                        <img src="images/Frame 481.svg" alt="">
+                        <h5>Dr. Jack</h5>
+                        <p>Cardiologist</p>
+                        <div class="star"><img src="images/card1star.png" alt=""></div>
+                        <button><a href="#">Appointment</a></button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card " style="margin-left: 8px;">
+                        <img src="images/Frame 481.svg" alt="">
+                        <h5>Dr. Jack</h5>
+                        <p>Cardiologist</p>
+                        <div class="star"><img src="images/card2star.png" alt=""></div>
+                        <button><a href="#">Appointment</a></button>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card c-3" style="margin-left: 12px;">
+                        <img src="images/Frame 481.svg" alt="">
+                        <h5>Dr. Jack</h5>
+                        <p>Cardiologist</p>
+                        <div class="star"><img src="images/card3star.png" alt=""></div>
+                        <button><a href="#">Appointment</a></button>
+                    </div>
+                </div>
+            </div>
+     </div>
+      <!--our facility -->
+      <div class="facility">
+          <h2>Our facility</h2>
+          <img src="images/image 10.jpg" alt="">
+      </div>
+        <!--our facility -->
+        <div class="review">
+           <div class="row">
+              <div class="column">
+                 <h3>Reviews</h3>
+              </div>
+             <div class="column view">
+                   <button>
+                     <h4>View All</h4>
+                   </button>
+               </div>
+           </div>
+            <div class="content">
+                <img src="images/Frame 347.svg" alt="">
+                <p>Good Seller. Seeds haven't sow yet but buying
+                    experience was satisfactory. Delievery and respons was perfect. No regreat and hoping that
+                    plant come out when I saw it.
+                </p>
+                <div class="review-name">
+                    <img id="mask" src="images/Mask group.png" alt="">
+                    <h6>Aditya sharma</h6>
+                </div>
+            </div>
+        </div>
+
+     <script src="home.js"></script>
+
+     <!-- End smartphone / tablet look -->
+        
+ </div>
+</body>
+
+</html>

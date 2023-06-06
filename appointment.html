@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swastik Clinic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="appointment.css">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="mobile-container">
+       <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a id="tittle" href="#">Swastik Clinic</a>
+            <div class="right">
+                <a id="search" href="#"><i class="fa fa-search"></i></a>
+                <a id="bell" href="#"><i class="fa fa-bell"></i></a>
+            </div>
+            <br>
+            <div id="myLinks">
+                <button ><a href="home.html">Home</a></button>
+                <button class="active"><a href="#appointment">Appointment</a></button>
+                <hr>
+            </div>
+        </div>
+       <!--form-->
+       <form action="">
+        <div class="form">
+            <h4>Book Your Appointment</h4>
+            <input class="in" type="text" placeholder="Patient Name">
+            <h4>Gender</h4>
+            <div class="check">
+                
+                <label>
+                    <input type="radio" name="selectButton">
+                    <span>Male</span>
+                </label>
+                <label class="check2">
+                    <input type="radio" name="selectButton">
+                    <span>Female</span>
+                </label>
+                <label class="check2">
+                    <input type="radio" name="selectButton">
+                    <span>Others</span>
+                </label>
+
+            </div>
+            <input class="in" type="text" placeholder="Email Id">
+            <br>
+            <div class="date">
+                <div class="left">
+                    <fieldset>
+                        <legend>Patient DOB</legend>
+                        <input type="text" name="dob" id="" placeholder="DD/MM/YY">
+                    </fieldset>
+                </div>
+                <div class="right">
+                    <fieldset>
+                        <legend>Patient Height</legend>
+                        <input type="text" placeholder="5'4  Inch   ">
+                    </fieldset>
+                </div>
+            </div>
+            <div class="option">
+                <select name="branch" id="" >
+                    <option class="op" value="select">Clinic Branch</option>
+                </select> <br>
+                <select name="clinic shift" id="" >
+                    <option class="op" value="select">Clinic Shift</option>
+                </select><br>
+                <select name="doctor shift" id="" >
+                    <option class="op" value="select">Doctor Shift</option>
+                </select><br>
+            </div>
+            <div class="D">
+                <fieldset>
+                    <legend>Date</legend>
+                    <input type="date" name="date" id="">
+                </fieldset>
+            </div>
+            <div class="payment">
+                <h4>Payment Mode</h4><br>
+                <div class="off">
+                    <input type="radio" name="offline" id="">
+                <label for="offline">Offline</label>
+                </div>
+
+                <div class="on">
+                    <input type="radio" name="online" id="">
+                <label for="online">Online</label>
+                </div>
+            </div>
+            <button id="book" ><a href="#">Book Appointment</a></button>
+          </div>
+       </form>
+   </div> 
+   <script src="home.js"></script>
+</body>
+</html>

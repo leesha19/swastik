@@ -1,0 +1,431 @@
+*{
+  margin: 0;
+}
+.mobile-container {
+  max-width: 355px;
+  margin: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+ 
+}
+#tittle{
+  position: absolute;
+ width: 139px;
+ height: 24px;
+  left: 50px;
+  top: 7px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: black;
+}
+.right{
+  float: right;
+  color: black;
+ 
+}
+.topnav #myLinks {
+  display: none;
+}
+#search{
+ color: black;
+ padding: 10px;
+ 
+}
+#bell{
+  color: black;
+  padding: 10px;
+
+
+}
+#myLinks a {
+ color: black;
+ text-decoration: none;
+ position: relative;
+ font-size: 18px;
+ padding: 20px;
+ margin: 13px;
+
+ 
+}
+button{
+  margin: 10px;
+  padding: 2px;
+  padding-bottom: 0;
+  border: none;
+  background-color: white;
+  margin-bottom: 0px;
+  
+}
+
+.active {
+  border-bottom: 3px solid #07989D;
+}
+#myLinks{
+  text-align: center;
+  
+  
+}
+.topnav a.icon {
+    float: left;
+    color: black;
+   position: absolute;
+    width: 21px;
+   height: 14px;
+   left: 20px;
+
+}
+/* image */
+.image{
+  position: relative;
+ width: 320px;
+ height: 161px;
+ left: 10px;
+ top: 10px;
+}
+/* image 
+.container{
+  position: relative;
+  left: 13px;
+  background-color: #07989D;
+  width: 320px;
+  height: 180px;
+  top: 30px;
+  margin: 0;
+
+  
+}
+.column{
+  width: 50%;
+  float: left;
+
+}
+
+.row{
+  margin: 10px;
+  color: white;
+ align-items: left;
+  
+}
+ .r1{
+  padding: 10px;
+  padding-bottom: 2px;
+  margin: 5px;
+  color: white;
+  font-family: 'Inter';
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+.r2 , .r3, .r4, .r5{
+  line-height: 25px;
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter ;
+  text-align: left;
+  font-size: 13px;
+
+  
+}
+.r2{
+  margin-top: 0;
+ padding-bottom: 2px;
+}
+*/
+
+.timing{
+  left: 10px;
+  position: relative;
+  padding-top: 30px;
+}
+
+
+/* cards */
+
+.doctor{
+  position: relative;
+ width: 320px;
+ height: 179px;
+ left: 10px;
+ margin-bottom: 5px;
+}
+
+.doctor .row h3{
+  position: relative;
+width: 88px;
+height: 22px;
+left: 5px;
+top: 1px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+.doctor .view button h4{
+  position: absolute;
+width: 54px;
+height: 17px;
+left: 10px;
+top: 4px;
+text-align: center;
+color: white;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+}
+.doctor .view button{
+
+  margin-top: 0;
+  margin-right: 0;
+ float: right;
+  position: relative;
+ width: 74px;
+ height: 24px;
+ left: 0px;
+ top: 0px;
+ background: #1F5368;
+ border-radius: 50px;
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.doctor .column{
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+.card{
+  width: 40%;
+  background-color: #07989D;
+  position:relative;
+ width: 100px;
+ height: 138px;
+ color: white;
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+.card img{
+ position: relative;
+ width: 35px;
+ height: 44px;
+ left: 32px;
+ top: 4px;
+
+}
+.card h5{
+  position: absolute;
+ width: 54px;
+ height: 17px;
+ left: 23px;
+ top: 50px;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 600;
+ font-size: 14px;
+ line-height: 17px;
+}
+.card p{
+  position: absolute;
+ width: 69px;
+ height: 15px;
+ left: 15px;
+ top: 70px;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 300;
+ font-size: 12px;
+ line-height: 15px;
+ text-align: center;
+}
+.card .star img{
+  position: absolute;
+width: 65px;
+height: 13px;
+left: 17px;
+top: 89px;
+}
+.card button{
+  position: absolute;
+ width: 100px;
+ height: 30px;
+ left: 0px;
+ top: 108px;
+ margin: 0;
+ background: #1F5368;
+ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.card button a{
+text-decoration: none;
+color: white;
+width: 79px;
+height: 14px;
+left: 10px;
+top: 116px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+}
+
+.card-row .column{
+  float: left;
+  width: 33%;
+}
+
+
+/*facility*/
+.facility{
+  position:relative;
+ width: 321px;
+ height: 233px;
+ left:8px;
+ top: 5px;
+}
+
+.facility h2{
+  position:relative;
+ font-family: 'Inter';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 18px;
+ line-height: 22px;
+ margin-bottom: 5px;
+ left: 5px;
+}
+.facility img {
+  position: relative;
+  width: 320px;
+  height: 195px;
+  left: 4px;
+ top: 5px;
+ right: 0;
+} 
+
+/*review */
+.review{
+  position: relative;
+ width: 321px;
+ height: 161px; 
+ left: 8px;
+ top: 30px;
+}
+.review .view button{
+  margin-top: 0;
+  margin-right: 0;
+ float: right;
+  position: relative;
+ width: 74px;
+ height: 24px;
+ left: 0px;
+ top: 0px;
+ color: white;
+ background: #1F5368;
+ border-radius: 50px;
+ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.review .view button h4{
+  position: absolute;
+  width: 54px;
+  height: 17px;
+  left: 10px;
+  top: 4px;
+  text-align: center;
+  color: white;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+}
+.review h3{
+  position: relative;
+width: 74px;
+height: 22px;
+left: 5px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+}
+.review .column{
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.review .content p{
+  position: absolute;
+width: 320px;
+height: 68px;
+left: 1px;
+top: 54px;
+margin-top: 5px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 17px;
+}
+.review .content{
+  margin-top: 15px;
+  position: absolute;
+}
+.review  img{
+  position: absolute;
+ width: 88px;
+ height: 16px;
+ left: 1px;
+ top: 34px;
+}
+
+.review-name h6{
+  position: relative;
+width: 82px;
+height: 15px;
+left: 20px;
+top: 0px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 15px;
+}
+.review-name{
+  position: relative;
+width: 113px;
+height: 15.07px;
+left: 0px;
+top: 100px;
+margin-top: 35px;
+padding-bottom: 50px;
+float: left;
+width: 50%;
+}
+#mask{
+  position: absolute;
+ width: 15px;
+ height: 15.07px;
+ left: 0px;
+ top: 0px;
+ float: left;
+}

@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+}
+.mobile-container {
+  max-width: 355px;
+  margin: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+  padding: 10px;
+ 
+}
+#tittle{
+  position: absolute;
+ width: 139px;
+ height: 24px;
+  left: 50px;
+  top: 7px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: black;
+}
+.right{
+  float: right;
+  color: black;
+ 
+}
+.topnav #myLinks {
+  display: none;
+}
+#search{
+ color: black;
+ padding: 10px;
+ 
+}
+#bell{
+  color: black;
+  padding: 10px;
+
+
+}
+#myLinks a {
+ color: black;
+ text-decoration: none;
+ position: relative;
+ font-size: 18px;
+ padding: 20px;
+ margin: 13px;
+
+ 
+}
+button{
+  margin: 10px;
+  padding: 2px;
+  padding-bottom: 0;
+  border: none;
+  background-color: white;
+  margin-bottom: 0px;
+  
+}
+
+.active {
+  border-bottom: 3px solid #07989D;
+}
+#myLinks{
+  text-align: center;
+  
+  
+}
+.topnav a.icon {
+    float: left;
+    color: black;
+   position: absolute;
+    width: 21px;
+   height: 14px;
+   left: 20px;
+
+}
+
+/* Form */
+form{
+  padding: 10px;
+  margin: 10px;
+  margin-top: 0;
+}
+.form h4{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+position: relative;
+width: 210px;
+height: 20px;
+margin-bottom: 15px;
+}
+.in{
+  background: rgba(7, 152, 157, 1);
+  border-radius: 50px;
+  width: 320px;
+ height: 40px;
+  left: 20px;
+ border: none;
+ margin-bottom: 15px;
+}
+.in::placeholder{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+width: 90px;
+height: 17px;
+left: 20px;
+position: relative;
+text-align: left;
+}
+.check{
+  margin-bottom: 15px;
+}
+.check label{
+  margin-right: 40px;
+  height: 19px;
+  
+}
+.check .check2{
+  margin-right: 20px;
+}
+.date{
+  height: 80px;
+
+  
+}
+.date .left{
+  float: left;
+  width: 50px;
+ height: 57px;
+}
+.date .right{
+  float: right;
+
+
+}
+.date legend{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+}
+.date fieldset{
+
+position: relative;
+display: inline-block;
+border: 2px solid  rgba(0, 0, 0, 1);
+}
+.date input{
+  width: 100px;
+height: 20px;
+border: none;
+text-align: left;
+position: relative;
+}
+.option select{
+  width: 320px;
+  height: 40px;
+  left: 20px;
+  background-color: #07989D;
+border-radius: 50px;
+border: none;
+margin-bottom: 15px;
+padding-left: 15px;
+padding-right: 15px;
+color: white;
+}
+.D fieldset {
+border: 2px solid  rgba(0, 0, 0, 1);
+margin-bottom: 15px;
+}
+ 
+.D fieldset legend{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+
+
+
+}
+.D fieldset input{
+  border: none;
+  width: 280px;
+height: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 100;
+font-size: 15px;
+line-height: 18px;
+color: rgba(91, 91, 91, 1);
+
+}
+
+.payment h4{
+  position: relative;
+width: 132px;
+height: 10px;
+
+}
+.payment label{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+}
+.payment input{
+  padding-left: 10px;
+}
+.payment .off{
+  float: left;
+  margin-right: 50px;
+}
+.payment .on{
+  float: left;
+}
+.form button{
+  background-color: #1F5368;
+border-radius: 50px;
+width: 320px;
+height: 39px;
+left: 0px;
+position: relative;
+margin: 0;
+margin-top: 20px;
+
+}
+.form button a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+width: 147px;
+height: 19px;
+}
